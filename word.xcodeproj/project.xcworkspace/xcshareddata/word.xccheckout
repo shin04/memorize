@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>F58FEEA6-1E1E-4B93-A159-8DE4C1BC374F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>word</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BB316C9207E1281CA6180D636016B997F492B714</key>
+		<string>https://github.com/shin04/tangocho.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>word.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BB316C9207E1281CA6180D636016B997F492B714</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/shin04/tangocho.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BB316C9207E1281CA6180D636016B997F492B714</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BB316C9207E1281CA6180D636016B997F492B714</string>
+			<key>IDESourceControlWCCName</key>
+			<string>word</string>
+		</dict>
+	</array>
+</dict>
+</plist>
