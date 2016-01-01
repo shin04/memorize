@@ -20,9 +20,9 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     //NSUserDefoultsのデータ全削除
-    //NSString *appDomain = [[NSBundle mainBundle] bundleIdentifier];
-    //[[NSUserDefaults standardUserDefaults] removePersistentDomainForName:appDomain];
-     
+//    NSString *appDomain = [[NSBundle mainBundle] bundleIdentifier];
+//    [[NSUserDefaults standardUserDefaults] removePersistentDomainForName:appDomain];
+    
     //初回起動時だけチュートリアルを表示
     if ([[NSUserDefaults standardUserDefaults] boolForKey:@"HasLaunchedOnce"]) {
         //[[NSUserDefaults standardUserDefaults] setBool:NO forKey:@"HasLaunchedOnce"];
