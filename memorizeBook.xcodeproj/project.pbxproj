@@ -84,7 +84,7 @@
 		06528F441B54D6C7005E8A26 /* settingCardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingCardViewController.m; sourceTree = "<group>"; };
 		066CADB01BC8FFF600CBB422 /* editViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editViewController.h; sourceTree = "<group>"; };
 		066CADB11BC8FFF600CBB422 /* editViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editViewController.m; sourceTree = "<group>"; };
-		067F05DE1B105434009C50C0 /* word.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = word.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		067F05DE1B105434009C50C0 /* memorizeBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memorizeBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		067F05E21B105434009C50C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067F05E31B105434009C50C0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		067F05E51B105434009C50C0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		067F05EC1B105434009C50C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		067F05EE1B105434009C50C0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		067F05F11B105434009C50C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		067F05F71B105434009C50C0 /* wordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		067F05F71B105434009C50C0 /* memorizeBook.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = memorizeBook.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		067F05FC1B105434009C50C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		067F05FD1B105434009C50C0 /* wordTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wordTests.m; sourceTree = "<group>"; };
 		067F06071B105729009C50C0 /* WatchingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchingViewController.h; sourceTree = "<group>"; };
@@ -197,8 +197,8 @@
 		067F05DF1B105434009C50C0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				067F05DE1B105434009C50C0 /* word.app */,
-				067F05F71B105434009C50C0 /* wordTests.xctest */,
+				067F05DE1B105434009C50C0 /* memorizeBook.app */,
+				067F05F71B105434009C50C0 /* memorizeBook.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -291,9 +291,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		067F05DD1B105434009C50C0 /* word */ = {
+		067F05DD1B105434009C50C0 /* memorizeBook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 067F06011B105434009C50C0 /* Build configuration list for PBXNativeTarget "word" */;
+			buildConfigurationList = 067F06011B105434009C50C0 /* Build configuration list for PBXNativeTarget "memorizeBook" */;
 			buildPhases = (
 				0542CFB4E77EA648BF02008C /* Check Pods Manifest.lock */,
 				067F05DA1B105434009C50C0 /* Sources */,
@@ -305,14 +305,14 @@
 			);
 			dependencies = (
 			);
-			name = word;
+			name = memorizeBook;
 			productName = word;
-			productReference = 067F05DE1B105434009C50C0 /* word.app */;
+			productReference = 067F05DE1B105434009C50C0 /* memorizeBook.app */;
 			productType = "com.apple.product-type.application";
 		};
-		067F05F61B105434009C50C0 /* wordTests */ = {
+		067F05F61B105434009C50C0 /* memorizeBookTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 067F06041B105434009C50C0 /* Build configuration list for PBXNativeTarget "wordTests" */;
+			buildConfigurationList = 067F06041B105434009C50C0 /* Build configuration list for PBXNativeTarget "memorizeBookTests" */;
 			buildPhases = (
 				067F05F31B105434009C50C0 /* Sources */,
 				067F05F41B105434009C50C0 /* Frameworks */,
@@ -323,9 +323,9 @@
 			dependencies = (
 				067F05F91B105434009C50C0 /* PBXTargetDependency */,
 			);
-			name = wordTests;
+			name = memorizeBookTests;
 			productName = wordTests;
-			productReference = 067F05F71B105434009C50C0 /* wordTests.xctest */;
+			productReference = 067F05F71B105434009C50C0 /* memorizeBook.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -339,7 +339,12 @@
 				TargetAttributes = {
 					067F05DD1B105434009C50C0 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = 5YB8977AM6;
+						DevelopmentTeam = PT797F6X82;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 0;
+							};
+						};
 					};
 					067F05F61B105434009C50C0 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -347,7 +352,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 067F05D91B105434009C50C0 /* Build configuration list for PBXProject "word" */;
+			buildConfigurationList = 067F05D91B105434009C50C0 /* Build configuration list for PBXProject "memorizeBook" */;
 			compatibilityVersion = "Xcode 6.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -360,8 +365,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				067F05DD1B105434009C50C0 /* word */,
-				067F05F61B105434009C50C0 /* wordTests */,
+				067F05DD1B105434009C50C0 /* memorizeBook */,
+				067F05F61B105434009C50C0 /* memorizeBookTests */,
 			);
 		};
 /* End PBXProject section */
@@ -476,7 +481,7 @@
 /* Begin PBXTargetDependency section */
 		067F05F91B105434009C50C0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 067F05DD1B105434009C50C0 /* word */;
+			target = 067F05DD1B105434009C50C0 /* memorizeBook */;
 			targetProxy = 067F05F81B105434009C50C0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -594,8 +599,8 @@
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = word/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "shisaku.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = shisaku.word;
+				PRODUCT_NAME = memorizeBook;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
@@ -610,8 +615,8 @@
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = word/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "shisaku.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = shisaku.word;
+				PRODUCT_NAME = memorizeBook;
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -631,8 +636,8 @@
 				INFOPLIST_FILE = wordTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "shisaku.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/word.app/word";
+				PRODUCT_NAME = memorizeBook;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memorizeBook.app/memorizeBook";
 			};
 			name = Debug;
 		};
@@ -647,15 +652,15 @@
 				INFOPLIST_FILE = wordTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "shisaku.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/word.app/word";
+				PRODUCT_NAME = memorizeBook;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/memorizeBook.app/memorizeBook";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		067F05D91B105434009C50C0 /* Build configuration list for PBXProject "word" */ = {
+		067F05D91B105434009C50C0 /* Build configuration list for PBXProject "memorizeBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				067F05FF1B105434009C50C0 /* Debug */,
@@ -664,7 +669,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		067F06011B105434009C50C0 /* Build configuration list for PBXNativeTarget "word" */ = {
+		067F06011B105434009C50C0 /* Build configuration list for PBXNativeTarget "memorizeBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				067F06021B105434009C50C0 /* Debug */,
@@ -673,7 +678,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		067F06041B105434009C50C0 /* Build configuration list for PBXNativeTarget "wordTests" */ = {
+		067F06041B105434009C50C0 /* Build configuration list for PBXNativeTarget "memorizeBookTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				067F06051B105434009C50C0 /* Debug */,

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "067F05DD1B105434009C50C0"
-               BuildableName = "word.app"
-               BlueprintName = "word"
-               ReferencedContainer = "container:word.xcodeproj">
+               BuildableName = "memorizeBook.app"
+               BlueprintName = "memorizeBook"
+               ReferencedContainer = "container:memorizeBook.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "067F05F61B105434009C50C0"
-               BuildableName = "wordTests.xctest"
-               BlueprintName = "wordTests"
-               ReferencedContainer = "container:word.xcodeproj">
+               BuildableName = "memorizeBook.xctest"
+               BlueprintName = "memorizeBookTests"
+               ReferencedContainer = "container:memorizeBook.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "067F05F61B105434009C50C0"
-               BuildableName = "wordTests.xctest"
-               BlueprintName = "wordTests"
-               ReferencedContainer = "container:word.xcodeproj">
+               BuildableName = "memorizeBook.xctest"
+               BlueprintName = "memorizeBookTests"
+               ReferencedContainer = "container:memorizeBook.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "067F05DD1B105434009C50C0"
-            BuildableName = "word.app"
-            BlueprintName = "word"
-            ReferencedContainer = "container:word.xcodeproj">
+            BuildableName = "memorizeBook.app"
+            BlueprintName = "memorizeBook"
+            ReferencedContainer = "container:memorizeBook.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "067F05DD1B105434009C50C0"
-            BuildableName = "word.app"
-            BlueprintName = "word"
-            ReferencedContainer = "container:word.xcodeproj">
+            BuildableName = "memorizeBook.app"
+            BlueprintName = "memorizeBook"
+            ReferencedContainer = "container:memorizeBook.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -99,9 +99,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "067F05DD1B105434009C50C0"
-            BuildableName = "word.app"
-            BlueprintName = "word"
-            ReferencedContainer = "container:word.xcodeproj">
+            BuildableName = "memorizeBook.app"
+            BlueprintName = "memorizeBook"
+            ReferencedContainer = "container:memorizeBook.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
