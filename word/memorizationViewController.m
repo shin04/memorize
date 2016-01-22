@@ -25,7 +25,7 @@
     
     scrollView = [[UIScrollView alloc] init];
     scrollView.delegate = self;
-    CGRect rect = CGRectMake(0, 183, 375, 150);
+    CGRect rect = CGRectMake(0, 50, 375, 150);
     scrollView.frame = rect;
     
     //スクロールできないようにする
@@ -41,7 +41,7 @@
     [self.view sendSubviewToBack:image];
     
     answerLabel = [[UILabel alloc] init];
-    answerLabel.frame = CGRectMake(0, 334, 375, 50);
+    answerLabel.frame = CGRectMake(0, 200, 375, 50);
     [self.view addSubview:answerLabel];
     
     if (wordNumber == 0) {

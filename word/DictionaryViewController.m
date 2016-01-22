@@ -111,8 +111,8 @@
     [alert addAction:[UIAlertAction actionWithTitle:@"見る"
                                               style:UIAlertActionStyleDefault
                                             handler:^(UIAlertAction *action){
-                                                [self MkAlert:[app.dictionaryText objectAtIndex:app.cellPath]
-                                                             :[app.dictionaryTitle objectAtIndex:app.cellPath]];
+                                                [self MkAlert:[app.dictionaryTitle objectAtIndex:app.cellPath]
+                                                             :[app.dictionaryText objectAtIndex:app.cellPath]];
                                             }]];
     [alert addAction:[UIAlertAction actionWithTitle:@"編集"
                                               style:UIAlertActionStyleDefault
